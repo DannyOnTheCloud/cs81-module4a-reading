@@ -66,5 +66,6 @@ function printDailySummary(log) {
 // Example usage with an example output, which helps us debug if needed. 
 addReadBook("Saturday", "Dune", 50);
 printDailySummary(readingLog);
+printDailySummary([{ day: "Sunday", minutes:30, book:"The Old Testament"}]); //This will display a new entry for Sunday, which is a day in the week that is not listed. 
 console.log("Total minutes read:", totalReadingMinutes(readingLog)); //This plays to the user the total minutes read
 console.log("Most read book:", mostReadBook(readingLog)); //This plays to the user the most popular read book 
