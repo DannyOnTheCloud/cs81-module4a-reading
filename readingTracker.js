@@ -58,7 +58,8 @@ function mostReadBook(log) {
 for each day*/
 function printDailySummary(log) {
   for (let entry of log) {
-    console.log(`${entry.day}: ${entry.minutes} mins reading "${entry.book}"`);
+    console.log(`${entry.day}: ${entry.minutes} mins reading "${entry.book}"`); // An improvement could be done here by entering the following
+    console.log (""); //What this does is ads space between each entry to enhance readability. 
   }
 }
 
